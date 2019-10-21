@@ -1,0 +1,7 @@
+version: '3'
+services:
+  holiday-sources:
+    container_name: flagday-api
+    ports:
+      - '8189:3001'
+    build: .
